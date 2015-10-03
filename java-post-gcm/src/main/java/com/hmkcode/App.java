@@ -9,6 +9,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.hmkcode.social.Social;
 import com.hmkcode.vo.Content;
 
 /**
@@ -32,9 +33,11 @@ public class App
 		
 		Content c = new Content();
 
-
         c.addRegId("APA91bG7sfY7V-x4I2RXd9-BuE1tV1x_yuZFjFhocfLJJ_U1s1veFNfMqllVHxXVXayNZDlRIiYrswHsB7ZuI9YIJPCSYFRfa8h-myRAq_S-FLTidlIedWp6odMYbkDZ9NZmP0sSvlWT");
-		c.createData("test", "Test Message");
+
+        String info = Social.getTwitterData("london");
+
+        c.createData("test", info);
 		
 		return c;
 	}
