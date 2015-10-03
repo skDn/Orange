@@ -45,7 +45,7 @@ import org.w3c.dom.Document;
 public class MainActivity extends android.support.v4.app.FragmentActivity implements OnClickListener {
     //-----------------------------------------
     public static MainActivity MAIN_ACTIVITY;
-    public static Location current_location;
+    public static LatLng current_location;
     private boolean isRunning;
     //-----------------------------------------
 
@@ -85,6 +85,7 @@ public class MainActivity extends android.support.v4.app.FragmentActivity implem
                 public void onMyLocationChange(Location arg0) {
                     // TODO Auto-generated method stub
 
+                    current_location = new LatLng(arg0.getLatitude(), arg0.getLongitude());
                     googleMap.addMarker(new MarkerOptions().position(new LatLng(arg0.getLatitude(), arg0.getLongitude())).title("It's Me!"));
                 }
             });

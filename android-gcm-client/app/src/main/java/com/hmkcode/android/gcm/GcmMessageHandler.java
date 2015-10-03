@@ -83,12 +83,13 @@ public class GcmMessageHandler extends IntentService {
                     Log.e("GcmMessageHandler", "MainActivity is not running!");
                     return;
                 }
-                getCurrentLocation(MainActivity.googleMap);
+
+
+
                 JSONObject jsonObject = null;
                 try {
                     jsonObject = new JSONObject(mes);
                     jsonObject.getJSONArray("location");
-
 
                     MainActivity.MAIN_ACTIVITY.onPushReceived(mes);
 
@@ -96,6 +97,18 @@ public class GcmMessageHandler extends IntentService {
                     Marker TP = MainActivity.googleMap.addMarker(new MarkerOptions().position(TutorialsPoint).title("TutorialsPoint"));
 
 
+                    JSONParser jParser = new JSONParser();
+                    double cur_lat = MainActivity.current_location.latitude;
+                    double cur_long = MainActivity.current_location.longitude;
+
+                    double new_lat = TutorialsPoint.latitude;
+                    double new_long = TutorialsPoint.longitude;
+
+                    String url = makeURL(cur_lat, cur_long, new_lat, new_long);
+                    String json = jParser.getJSONFromUrl(url);
+
+                    Log.i("test",json);
+                    drawPath(json);
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -105,51 +118,6 @@ public class GcmMessageHandler extends IntentService {
 
     }
 
-    void getCurrentLocation(GoogleMap mMap) {
-//        Location myLocation  = mMap.getMyLocation();
-//        if(myLocation!=null)
-//        {
-//            double dLatitude = myLocation.getLatitude();
-//            double dLongitude = myLocation.getLongitude();
-//            Log.i("APPLICATION", " : " + dLatitude);
-//            Log.i("APPLICATION", " : " + dLongitude);
-//            final LatLng TutorialsPoint = new LatLng(dLatitude, dLongitude);
-//            Marker TP = MainActivity.googleMap.addMarker(new MarkerOptions().position(TutorialsPoint).title("TutorialsPoint"));
-//
-//        }
-//        else
-//        {
-//            Toast.makeText(this, "Unable to fetch the current location", Toast.LENGTH_SHORT).show();
-//        }
-
-        LocationManager service = (LocationManager) getSystemService(LOCATION_SERVICE);
-        Criteria criteria = new Criteria();
-        String provider = service.getBestProvider(criteria, false);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            if (checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-                // TODO: Consider calling
-                //    public void requestPermissions(@NonNull String[] permissions, int requestCode)
-                // here to request the missing permissions, and then overriding
-                //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-                //                                          int[] grantResults)
-                // to handle the case where the user grants the permission. See the documentation
-                // for Activity#requestPermissions for more details.
-                return;
-            }
-        }
-        Location location = service.getLastKnownLocation(provider);
-        LatLng userLocation = new LatLng(location.getLatitude(),location.getLongitude());
-        //Marker TP = MainActivity.googleMap.addMarker(new MarkerOptions().position(userLocation).title("userLocation"));
-
-        JSONParser jParser = new JSONParser();
-        String url = makeURL(51, 0, 51, -1);
-        String json = jParser.getJSONFromUrl(url);
-
-        Log.i("test",json);
-        drawPath(json);
-
-
-    }
 
     public String makeURL (double sourcelat, double sourcelog, double destlat, double destlog ){
         StringBuilder urlString = new StringBuilder();
