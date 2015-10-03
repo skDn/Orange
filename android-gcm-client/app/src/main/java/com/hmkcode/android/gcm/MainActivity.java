@@ -6,7 +6,9 @@ import com.google.android.gms.gcm.GoogleCloudMessaging;
 
 import android.app.IntentService;
 import android.content.Intent;
+import android.location.Location;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
 import android.app.Activity;
 import android.os.Handler;
@@ -19,6 +21,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.LocationSource;
 import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
@@ -30,6 +33,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 public class MainActivity extends android.support.v4.app.FragmentActivity implements OnClickListener {
     //-----------------------------------------
     public static MainActivity MAIN_ACTIVITY;
+    public static Location current_location;
     private boolean isRunning;
     //-----------------------------------------
 
@@ -57,9 +61,21 @@ public class MainActivity extends android.support.v4.app.FragmentActivity implem
         messageBox = (EditText) findViewById(R.id.messageWindow);
 
         //added by WL
-        googleMap = ((MapFragment) getFragmentManager().findFragmentById(R.id.map)).getMap();
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+            googleMap = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map)).getMap();
+            googleMap.setMyLocationEnabled(true);
 
+            googleMap.setOnMyLocationChangeListener(new GoogleMap.OnMyLocationChangeListener() {
 
+                @Override
+                public void onMyLocationChange(Location arg0) {
+                    // TODO Auto-generated method stub
+
+                    googleMap.addMarker(new MarkerOptions().position(new LatLng(arg0.getLatitude(), arg0.getLongitude())).title("It's Me!"));
+                }
+            });
+
+        }
 
 
         btnRegId.setOnClickListener(this);

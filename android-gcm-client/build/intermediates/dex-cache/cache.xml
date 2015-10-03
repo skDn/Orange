@@ -2,200 +2,200 @@
 <items version="2" >
 
     <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-ba13309dc25d521eb0ad759671dc24efedae6dfd.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-9c8c14d6502ac33506ca3bcb6f6cd07fb3928575.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-a3ddb0fcec578ccf8952a8580d1abf6dadccda36.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-537cb0998548d6d78de782a2b6e86028a18ef568.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-d8599b2a1e2c70e0ec7054227bf474d97508d12e.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-ec6a504a943907231eedb003f55f5460f5832be3.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-9edcfcfb6e5e8eb3a83076df4e745c78907ca302.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-e261438be298dc2a698e0d184a3d5fe317b734b2.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-0be033675ffff2e5fb4492e3192b148f6dc321a3.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="997773777cf3904c11d6764fe3b7668538220e49">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-74738c14ed6d325a8d272931e4cc64c506ec1cd1.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-8374c265bfe2d10366fd9e049dbe6ddb482e0e88.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="17449c47df35c754b257532052f1270c444f7993">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-8abb990836f25e85a1d88efa20c167d7091959a6.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-7b3377c96d4d127d844e5ea4a063ceb197b5ad32.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="3178362320bcf51228835b60ff978efadfd1f783">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-9c72a48e44f3a52169ddadebe1fcdb67056c8f51.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-e33dd256ffbf933a6b7d7ae985efc8a21f0df8ba.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-427ebef61321e21a1e257619435e7904669806c0.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-8d3323cb2ff03301ae50d9a88a57b36c261eb818.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-4390bb6c24fadbfbd478b90391f7cfe639510e6b.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-be5af54cd3a6dcf80d3330dd7b4830e8d2e6cc50.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-2e3391bc893f915ad4fbb142e4d30d99a52b1f51.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-6f8684dec8cb349f04714097d58bb043330cffd8.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="482de223655d06253cc6a4955d653f8994169500">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-55643f028218ef0eba19e6857738255a433a35b4.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-fe30c50c7c3bfa0a9af427f560d299aae6b1a2e3.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-90ee7bb49588e0b32e6215e696e1204e6fc4560e.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-735e5cae39a45a45878e994bf5ec9c90f1455eaa.jar" />
-    </item>
-    <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-472c195887514230d67bb37c92effe5d7fa100ee.jar" />
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-f2ded8810394bfa6d03d6a25511b4446c742352e.jar" />
     </item>
     <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/jars/classes.jar"
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.1.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="95758a2905669affbffc5ddd262921d375674fad">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-4b1cb4c534eb9dd2b750a6a1e9627964aa2bffb8.jar" />
+        sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-7482279198618960fe2c799b8117b760c202ee97.jar" />
     </item>
     <item
-        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/jars/classes.jar"
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-ef491ead08fe8125e47b61c831001c2ab2d0c35a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-a2809ac6ee0d3402bef8fa5bee3656b585135a83.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-185f8dcf11b17d3424b94e5ebaf7cfa5d784856c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.1.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
-        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/build/intermediates/pre-dexed/debug/classes-ebb09b48f8dbba28e715d3f9e5f7e676580cdf4e.jar" />
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-a3dba5803e1ffdc8d4a2e8d378877d02929e9318.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-0d5ecf3d5a7c2b4e3e2f1b103fa21d62fc2d8e9b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-03f7013eeaca2e14ccfe8cf4a3f246152547cf92.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-d98bb3352350ce75d389780a1d628ef4758e3e51.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="482de223655d06253cc6a4955d653f8994169500">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-8cea4b9a59e298d09d8b1853a0e7280a35c1f3f7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-3acb4c1aaac513c831e9ac66ab73534d2ca3c892.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-c3cba74e610d1679cce92661c70c10396d959ed9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-b2339fe8bb9d42d61cacf4799f1ccf2de737f098.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-acec002b632de73a6960f1c6d94f1f01d8e9707e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-646c5cd027c61e1e7b83ff5cf72cc57519cf0375.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="3178362320bcf51228835b60ff978efadfd1f783">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-88341414e3a8da6d1093e656a16b976e1adc0205.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-d150e2ba9def53e5779332ff2c4d67ad271ef2b1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-99a1f36921d11d7de1303caaed20f82fda1532d2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-be34a0a72b00dad31f26137a61be598b0d0030e2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-e6969aa52a1d6c7ed7d47cae01ec3e0c2c188705.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-9040a292164e908215e6296f86328fd2a4063bcc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-1b39011307dba50f2dd175ec4b32e720eaf16290.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="17449c47df35c754b257532052f1270c444f7993">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-64a115178615e8fd3f7920318e0153ca1ec5ecef.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-c0177ab4b142eab17283c412d2223dda4ed8859c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-1adb2aa930f942fc3348ee111c43e687773a96b0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-99f449b0c7fd56c1206b1a395f2b18754123bc41.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-a89c46670c37443660dbbc23c629785b04cb77ac.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
+        <dex dex="C:\Users\Wera\Desktop\Orange\android-gcm-client\app\build\intermediates\pre-dexed\debug\classes-e159b3287760a072b1be3bbe073077cb2a31602f.jar" />
     </item>
 
 </items>
