@@ -58,7 +58,7 @@ public class MainActivity extends Activity implements OnClickListener {
                         gcm = GoogleCloudMessaging.getInstance(getApplicationContext());
                     }
                     regid = gcm.register(PROJECT_NUMBER);
-                    //msg = "Device registered, registration ID=" + regid;
+                    msg = "Device registered, registration ID=" + regid;
                     Log.i("GCM", msg);
 
 
