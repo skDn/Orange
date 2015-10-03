@@ -5,7 +5,7 @@ import twitter4j.auth.AccessToken;
 
 public class Social{
     public static void main(String [] args){
-        getTwitterData("london");
+        getTwitterData("newyork");
     }
 
     public static String getTwitterData(String topic){
@@ -15,7 +15,7 @@ public class Social{
         twitter.setOAuthAccessToken(AT);
 
         try{
-            String tweetResult = "";
+            StringBuilder tweetResult = new StringBuilder();
             double latitude = 0;
             double longitude = 0;
             Query query = new Query("#" + topic);
@@ -28,15 +28,15 @@ public class Social{
                     }
                     latitude /=4;
                     longitude /=4;
-                    tweetResult.concat(String.format("latitude: %f\n", latitude));
+                    tweetResult.append(String.format("latitude: %f\n", latitude));
                     System.out.println("latitude: " + latitude);
-                    tweetResult.concat(String.format("longitude: %f\n", longitude));
+                    tweetResult.append(String.format("longitude: %f\n", longitude));
                     System.out.println("longitude: "+ longitude);
-                    tweetResult.concat(status.getPlace().getFullName() + "\n");
+                    tweetResult.append(status.getPlace().getFullName() + "\n");
                     System.out.println(status.getPlace().getFullName() + "\n");
-                    tweetResult.concat(status.getText());
+                    tweetResult.append(status.getText());
                     System.out.println("@" + status.getUser().getScreenName() + ":" + status.getText());
-                    return tweetResult;
+                    return tweetResult.toString();
                 }
                 catch(Exception e){
                     //System.out.println("+++++ NQMA LOCATIONS BRAT +++++++");
