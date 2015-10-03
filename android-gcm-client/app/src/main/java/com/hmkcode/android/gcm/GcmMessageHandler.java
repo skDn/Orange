@@ -1,6 +1,7 @@
 package com.hmkcode.android.gcm;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
+import com.hmkcode.android.gcm.event.UpdateTextViewEvent;
 
 import android.app.IntentService;
 import android.content.Intent;
@@ -8,6 +9,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.widget.Toast;
+
+import de.greenrobot.event.EventBus;
 
 public class GcmMessageHandler extends IntentService {
 
@@ -45,10 +48,9 @@ public class GcmMessageHandler extends IntentService {
 	public void showToast(){
 		handler.post(new Runnable() {
 		    public void run() {
-		        Toast.makeText(getApplicationContext(),mes , Toast.LENGTH_LONG).show();
+				EventBus.getDefault().post(new UpdateTextViewEvent(mes));
 		    }
 		 });
-
 	}
 	
 	
