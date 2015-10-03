@@ -1,17 +1,22 @@
 package com.hmkcode.android.gcm;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
 import android.app.IntentService;
+import android.app.ProgressDialog;
 import android.content.Intent;
+import android.graphics.Color;
 import android.location.Location;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.app.Activity;
 import android.os.Handler;
+import android.os.StrictMode;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -28,6 +33,13 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.Polyline;
+import com.google.android.gms.maps.model.PolylineOptions;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.w3c.dom.Document;
 
 
 public class MainActivity extends android.support.v4.app.FragmentActivity implements OnClickListener {
@@ -45,6 +57,8 @@ public class MainActivity extends android.support.v4.app.FragmentActivity implem
     GoogleCloudMessaging gcm;
     String regid;
     String PROJECT_NUMBER = "897399289848";
+
+
 
 
     @Override
@@ -77,6 +91,8 @@ public class MainActivity extends android.support.v4.app.FragmentActivity implem
 
         }
 
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
 
         btnRegId.setOnClickListener(this);
     }
@@ -133,5 +149,8 @@ public class MainActivity extends android.support.v4.app.FragmentActivity implem
             messageBox.setText(pushText);
         }
     }
+
+
+
     //-----------------------------------------
 }
