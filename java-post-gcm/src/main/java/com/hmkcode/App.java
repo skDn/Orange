@@ -7,6 +7,8 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hmkcode.social.Social;
@@ -35,7 +37,12 @@ public class App
 
         c.addRegId("APA91bEzPADr-jC2GdER7br0CworIUeeVN1R8Q_of_VJFaoOa3U43TLWvgSkHzZX2EfYxFgoyobv7BlWt8DCvmbXzOAmjsN_1ZogioIOs6JJ5660OsIoU_W32eVBX9WvkLWdMVsDhFuH");
 
-        String info = Social.getTwitterData("london");
+        List<String> input = new ArrayList<String>();
+        input.add("crime");
+        input.add("fire");
+        input.add("fight");
+        input.add("carcrash");
+        String info = Social.getTwitterData(input);
 
         c.createData("test", info);
 		
