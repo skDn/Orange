@@ -363,7 +363,7 @@ containing a value of this type.
         public static final int powered_by_google_light=0x7f02001e;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0016;
+        public static final int action_settings=0x7f0a0017;
         public static final int book_now=0x7f0a000e;
         public static final int btnGetRegId=0x7f0a0014;
         public static final int buyButton=0x7f0a000a;
@@ -376,6 +376,7 @@ containing a value of this type.
         public static final int holo_light=0x7f0a0006;
         public static final int hybrid=0x7f0a0000;
         public static final int match_parent=0x7f0a000c;
+        public static final int messageWindow=0x7f0a0016;
         public static final int monochrome=0x7f0a0013;
         public static final int none=0x7f0a0001;
         public static final int normal=0x7f0a0002;
