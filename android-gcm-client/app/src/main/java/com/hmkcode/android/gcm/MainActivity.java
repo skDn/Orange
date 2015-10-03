@@ -17,7 +17,17 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class MainActivity extends Activity implements OnClickListener {
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
+import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.maps.SupportMapFragment;
+
+
+public class MainActivity extends android.support.v4.app.FragmentActivity implements OnClickListener {
     //-----------------------------------------
     public static MainActivity MAIN_ACTIVITY;
     private boolean isRunning;
@@ -26,6 +36,7 @@ public class MainActivity extends Activity implements OnClickListener {
     Button btnRegId;
     EditText etRegId;
     EditText messageBox;
+    public static GoogleMap googleMap;
 
     GoogleCloudMessaging gcm;
     String regid;
@@ -44,6 +55,11 @@ public class MainActivity extends Activity implements OnClickListener {
         btnRegId = (Button) findViewById(R.id.btnGetRegId);
         //etRegId = (EditText) findViewById(R.id.etRegId);
         messageBox = (EditText) findViewById(R.id.messageWindow);
+
+        //added by WL
+        googleMap = ((MapFragment) getFragmentManager().findFragmentById(R.id.map)).getMap();
+
+
 
 
         btnRegId.setOnClickListener(this);

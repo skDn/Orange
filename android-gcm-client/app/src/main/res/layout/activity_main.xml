@@ -2,11 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" 
+    tools:context=".MainActivity"
     android:orientation="vertical"
     android:weightSum="1">
-    
-    <Button 
+
+    <Button
         android:id="@+id/btnGetRegId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

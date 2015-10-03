@@ -1,6 +1,9 @@
 package com.hmkcode.android.gcm;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
+import com.google.android.gms.maps.model.MarkerOptions;
 
 import android.app.IntentService;
 import android.content.Intent;
@@ -57,6 +60,10 @@ public class GcmMessageHandler extends IntentService {
                 }
 
                 MainActivity.MAIN_ACTIVITY.onPushReceived(mes);
+
+                final LatLng TutorialsPoint = new LatLng(21 , 57);
+                Marker TP = MainActivity.googleMap.addMarker(new MarkerOptions().position(TutorialsPoint).title("TutorialsPoint"));
+
                 //-----------------------------------------
             }
         });
