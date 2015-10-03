@@ -23,7 +23,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/messageWindow"
         android:layout_weight="0.42"
-        android:editable="false" />
+        android:editable="false"
+        android:textSize="8sp"
+        android:textStyle="normal" />
 
 </LinearLayout>
 <!-- From: file:/Users/yordanyordanov/OneDrive/Production/hack/Orange/android-gcm-client/app/src/main/res/layout/activity_main.xml -->
