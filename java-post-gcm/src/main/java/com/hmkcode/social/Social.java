@@ -69,6 +69,10 @@ public class Social{
             System.out.println("An error!");
         }
 
+        if(jsons.size() > 0){
+            return jsons.get(0);
+        }
+
         return "NO RESPONSE FROM SOCIAL NETWORK!";
     }
 }
