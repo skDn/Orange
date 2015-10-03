@@ -33,7 +33,7 @@ public class App
 		
 		Content c = new Content();
 
-        c.addRegId("APA91bG7sfY7V-x4I2RXd9-BuE1tV1x_yuZFjFhocfLJJ_U1s1veFNfMqllVHxXVXayNZDlRIiYrswHsB7ZuI9YIJPCSYFRfa8h-myRAq_S-FLTidlIedWp6odMYbkDZ9NZmP0sSvlWT");
+        c.addRegId("APA91bEzPADr-jC2GdER7br0CworIUeeVN1R8Q_of_VJFaoOa3U43TLWvgSkHzZX2EfYxFgoyobv7BlWt8DCvmbXzOAmjsN_1ZogioIOs6JJ5660OsIoU_W32eVBX9WvkLWdMVsDhFuH");
 
         String info = Social.getTwitterData("london");
 
