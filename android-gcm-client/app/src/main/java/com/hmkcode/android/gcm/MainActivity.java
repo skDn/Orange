@@ -42,7 +42,7 @@ public class MainActivity extends Activity implements OnClickListener {
         setContentView(R.layout.activity_main);
 
         btnRegId = (Button) findViewById(R.id.btnGetRegId);
-        etRegId = (EditText) findViewById(R.id.etRegId);
+        //etRegId = (EditText) findViewById(R.id.etRegId);
         messageBox = (EditText) findViewById(R.id.messageWindow);
 
 
@@ -58,7 +58,7 @@ public class MainActivity extends Activity implements OnClickListener {
                         gcm = GoogleCloudMessaging.getInstance(getApplicationContext());
                     }
                     regid = gcm.register(PROJECT_NUMBER);
-                    msg = "Device registered, registration ID=" + regid;
+                    //msg = "Device registered, registration ID=" + regid;
                     Log.i("GCM", msg);
 
 
@@ -72,7 +72,7 @@ public class MainActivity extends Activity implements OnClickListener {
 
             @Override
             protected void onPostExecute(String msg) {
-                etRegId.setText(msg + "\n");
+                //etRegId.setText(msg + "\n");
             }
         }.execute(null, null, null);
     }

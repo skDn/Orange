@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-ed22cd18eea80df553e962046c936df447c6e51f.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-d05d0542cef408adcbb47d81a2214b13b6190cd7.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-b88ac6932c57a995d3d17e4e25e661ef1472be4f.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-ea6003cda774799beceb863124d9e45d101067e6.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-3716d036acc4628196ac572227c941ed0bae3c41.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="482de223655d06253cc6a4955d653f8994169500">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-1da632619d9aca62b3899e26b4c9219e77b475b5.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-837588c67727fac8a8c217a4ff0bb23d726ed91d.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-cfd456afab13be999255ddf92393722e1894f086.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-e93a203f7c7fdf3c410eac0ea3ecfbbc436b3a51.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-1ec5e5128ae91a48e03f22e1743283d31a2786d7.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-f1f0057103a4a0b2cc366005a1553eedbcde2a66.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-c2047843c789178f2898b14ef99eca30463c29d7.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-9a345003b2a1409907ce14b45daec481a0c50c4b.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-ff6897ab97f1bb0afc6dce07a8609b846a8a99c5.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3178362320bcf51228835b60ff978efadfd1f783">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-57ef633291420eb452001ae41f973136ce5c17c1.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-3fb011061c42d0fdab9407f0d9feecb498b4fef0.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="17449c47df35c754b257532052f1270c444f7993">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-4682d4d15b1d033cf353f9da3abb4b16b0e704bf.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-90ee7bb49588e0b32e6215e696e1204e6fc4560e.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-5f974ee24273575749cb4aac1550b32ba8195ff5.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-a86a3711df7572739522e338bf9b4f09fa4aabff.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-d7ab73ad4b69a05beecf30c0329c89bbefd6d72b.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-c197fa62730b6decd023cf6a1a73353e09e6d015.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-afedbff2e111d53103ba3a99afc345f69c8d37c1.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-9130a726d99d2e03360870cd1689fcf8dcd625c0.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-ddc9c89c8a38529a5d8f89e0ab770e122b59f4f4.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-b50f26c6c887f0bee73e1832758ad82578b55f75.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-bda490dc8553e2fde9299cd84c9296db3983bf3c.jar" />
+    </item>
+    <item
+        jar="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
+        <dex dex="/Users/yordanyordanov/OneDrive/Production/hack/Orange/maps/app/build/intermediates/pre-dexed/debug/classes-325762f939c09d4db04a0a2ef47c90495411a951.jar" />
+    </item>
+
+</items>
