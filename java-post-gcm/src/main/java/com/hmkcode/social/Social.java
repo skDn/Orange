@@ -1,7 +1,14 @@
 package com.hmkcode.social;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import twitter4j.*;
 import twitter4j.auth.AccessToken;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Social{
     public static void main(String [] args){
@@ -15,7 +22,7 @@ public class Social{
         twitter.setOAuthAccessToken(AT);
 
         try{
-            StringBuilder tweetResult = new StringBuilder();
+            Map<String, Object > tweetResult = new HashMap();
             double latitude = 0;
             double longitude = 0;
             Query query = new Query("#" + topic);
@@ -28,15 +35,21 @@ public class Social{
                     }
                     latitude /=4;
                     longitude /=4;
-                    tweetResult.append(String.format("latitude: %f\n", latitude));
+                    List<Double> location = new ArrayList();
+                    location.add(latitude);
+                    location.add(longitude);
+                    tweetResult.put("location", location);
+                    tweetResult.put("message", status.getText());
+
+
                     System.out.println("latitude: " + latitude);
-                    tweetResult.append(String.format("longitude: %f\n", longitude));
-                    System.out.println("longitude: "+ longitude);
-                    tweetResult.append(status.getPlace().getFullName() + "\n");
+                    System.out.println("longitude: " + longitude);
                     System.out.println(status.getPlace().getFullName() + "\n");
-                    tweetResult.append(status.getText());
                     System.out.println("@" + status.getUser().getScreenName() + ":" + status.getText());
-                    return tweetResult.toString();
+
+                    Gson gson = new GsonBuilder().create();
+
+                    return gson.toJson(tweetResult);
                 }
                 catch(Exception e){
                     //System.out.println("+++++ NQMA LOCATIONS BRAT +++++++");
