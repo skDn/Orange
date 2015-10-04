@@ -86,6 +86,15 @@ public class GcmMessageHandler extends IntentService {
             public void run() {
                 //-----------------------------------------
                 //Toast.makeText(getApplicationContext(),mes , Toast.LENGTH_LONG).show();
+                        MainActivity.response.setOnClickListener(new View.OnClickListener() {
+                            public void onClick(View v) {
+                                MainActivity.response.setVisibility(View.VISIBLE);
+                                if (MainActivity.response.getText().equals("Accept"))
+                                    MainActivity.response.setText("Click to complete");
+                                else
+                                    MainActivity.response.setText("Completed");
+                            }
+                        });
                 if (MainActivity.MAIN_ACTIVITY == null) {
                     Log.e("GcmMessageHandler", "MainActivity is not running!");
                     return;
@@ -104,7 +113,7 @@ public class GcmMessageHandler extends IntentService {
                     // take the location of the crime
                     final LatLng TutorialsPoint = new LatLng((Double) jsonObject.getJSONArray("location").get(0), (Double) jsonObject.getJSONArray("location").get(1));
                     Marker TP = MainActivity.googleMap.addMarker(new MarkerOptions().position(TutorialsPoint).title("TutorialsPoint"));
-
+                    MainActivity.markers.add(TP);
 
                     JSONParser jParser = new JSONParser();
 
@@ -121,9 +130,15 @@ public class GcmMessageHandler extends IntentService {
                     Log.i("test", json);
                     drawPath(json);
 
-                    // zoom
-                    MainActivity.markers.add(TP);
+
                     LatLngBounds.Builder builder = new LatLngBounds.Builder();
+//                    if(MainActivity.markers.size() > 1)
+//                    {
+//                        MainActivity.markers.remove(1);
+//                        MainActivity.googleMap.clear();
+//                        Marker marker = MainActivity.googleMap.addMarker(new MarkerOptions().position(MainActivity.current_location).title("It's Me!"));
+//                    }
+
                     for (Marker marker : MainActivity.markers) {
                         builder.include(marker.getPosition());
                     }

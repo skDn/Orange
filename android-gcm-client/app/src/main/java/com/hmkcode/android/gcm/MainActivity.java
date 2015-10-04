@@ -17,6 +17,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.os.Handler;
 import android.os.StrictMode;
+import android.provider.SyncStateContract;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -24,11 +25,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.LocationSource;
 import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -47,9 +50,10 @@ public class MainActivity extends android.support.v4.app.FragmentActivity implem
     public static MainActivity MAIN_ACTIVITY;
     public static LatLng current_location;
     public static ArrayList<Marker> markers;
+    public static Button response;
     private boolean isRunning;
     //-----------------------------------------
-
+    //Button response;
     Button btnRegId;
     EditText etRegId;
     EditText messageBox;
@@ -73,6 +77,18 @@ public class MainActivity extends android.support.v4.app.FragmentActivity implem
         setContentView(R.layout.activity_main);
 
         btnRegId = (Button) findViewById(R.id.btnGetRegId);
+        response = (Button) findViewById(R.id.button);
+        response.setClickable(false);
+        response.setVisibility(View.INVISIBLE);
+
+//        response.setOnClickListener(new OnClickListener() {
+//            public void onClick(View v) {
+//                if(response.getText().equals("Accept"))
+//                    response.setText("Click to complete");
+//                else
+//                    response.setText("Completed");
+//            }
+//        });
         //etRegId = (EditText) findViewById(R.id.etRegId);
         messageBox = (EditText) findViewById(R.id.messageWindow);
 
@@ -90,10 +106,26 @@ public class MainActivity extends android.support.v4.app.FragmentActivity implem
                     current_location = new LatLng(arg0.getLatitude(), arg0.getLongitude());
                     Marker marker = googleMap.addMarker(new MarkerOptions().position(new LatLng(arg0.getLatitude(), arg0.getLongitude())).title("It's Me!"));
                     markers.add(marker);
+
+                    //CameraUpdate center=CameraUpdateFactory.newLatLng(new LatLng(arg0.getLatitude(), arg0.getLongitude()));
+
+                    CameraPosition cameraPosition = new CameraPosition.Builder()
+                            .target(new LatLng(arg0.getLatitude(), arg0.getLongitude()))      // Sets the center of the map to Mountain View
+                            .zoom(16)                   // Sets the zoom
+                            .build();                   // Creates a CameraPosition from the builder
+                    googleMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
+                    //CameraUpdate zoom=CameraUpdateFactory.zoomTo(11);
+                    //googleMap.moveCamera(center);
+                    //googleMap.animateCamera(zoom);
+
                 }
             });
 
+
         }
+        //googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(current_location, 16));
+
+
 
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
