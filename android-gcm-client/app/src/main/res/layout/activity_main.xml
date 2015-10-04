@@ -24,7 +24,6 @@
         android:id="@+id/messageWindow"
         android:layout_weight="0.42"
         android:editable="false"
-        android:textSize="8sp"
         android:textStyle="normal" />
 
 </LinearLayout>

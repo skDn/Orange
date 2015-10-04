@@ -46,6 +46,7 @@ public class MainActivity extends android.support.v4.app.FragmentActivity implem
     //-----------------------------------------
     public static MainActivity MAIN_ACTIVITY;
     public static LatLng current_location;
+    public static ArrayList<Marker> markers;
     private boolean isRunning;
     //-----------------------------------------
 
@@ -65,6 +66,7 @@ public class MainActivity extends android.support.v4.app.FragmentActivity implem
     protected void onCreate(Bundle savedInstanceState) {
         //-----------------------------------------
         MAIN_ACTIVITY = this;
+        markers = new ArrayList<Marker>();
         //-----------------------------------------
 
         super.onCreate(savedInstanceState);
@@ -86,7 +88,8 @@ public class MainActivity extends android.support.v4.app.FragmentActivity implem
                     // TODO Auto-generated method stub
 
                     current_location = new LatLng(arg0.getLatitude(), arg0.getLongitude());
-                    googleMap.addMarker(new MarkerOptions().position(new LatLng(arg0.getLatitude(), arg0.getLongitude())).title("It's Me!"));
+                    Marker marker = googleMap.addMarker(new MarkerOptions().position(new LatLng(arg0.getLatitude(), arg0.getLongitude())).title("It's Me!"));
+                    markers.add(marker);
                 }
             });
 

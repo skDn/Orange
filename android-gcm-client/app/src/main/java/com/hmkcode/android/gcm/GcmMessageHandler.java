@@ -1,11 +1,13 @@
 package com.hmkcode.android.gcm;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
+import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.Polyline;
@@ -13,6 +15,7 @@ import com.google.android.gms.maps.model.PolylineOptions;
 
 import android.*;
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.app.IntentService;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -27,8 +30,12 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
+import android.view.View;
+import android.view.ViewTreeObserver;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import android.app.FragmentManager;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -88,16 +95,20 @@ public class GcmMessageHandler extends IntentService {
 
                 JSONObject jsonObject = null;
                 try {
+                    // get the message
                     jsonObject = new JSONObject(mes);
                     jsonObject.getJSONArray("location");
 
-                    MainActivity.MAIN_ACTIVITY.onPushReceived(mes);
+                    MainActivity.MAIN_ACTIVITY.onPushReceived(jsonObject.getString("message"));
 
+                    // take the location of the crime
                     final LatLng TutorialsPoint = new LatLng((Double) jsonObject.getJSONArray("location").get(0), (Double) jsonObject.getJSONArray("location").get(1));
                     Marker TP = MainActivity.googleMap.addMarker(new MarkerOptions().position(TutorialsPoint).title("TutorialsPoint"));
 
 
                     JSONParser jParser = new JSONParser();
+
+                    // take the current and crime coordinates
                     double cur_lat = MainActivity.current_location.latitude;
                     double cur_long = MainActivity.current_location.longitude;
 
@@ -107,8 +118,24 @@ public class GcmMessageHandler extends IntentService {
                     String url = makeURL(cur_lat, cur_long, new_lat, new_long);
                     String json = jParser.getJSONFromUrl(url);
 
-                    Log.i("test",json);
+                    Log.i("test", json);
                     drawPath(json);
+
+                    // zoom
+                    MainActivity.markers.add(TP);
+                    LatLngBounds.Builder builder = new LatLngBounds.Builder();
+                    for (Marker marker : MainActivity.markers) {
+                        builder.include(marker.getPosition());
+                    }
+                    LatLngBounds bounds = builder.build();
+
+                    // setting the padding
+                    int padding = 50; // offset from edges of the map in pixels
+                    CameraUpdate cu = CameraUpdateFactory.newLatLngBounds(bounds, padding);
+
+                    // camera animation
+                    MainActivity.googleMap.animateCamera(cu);
+
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
