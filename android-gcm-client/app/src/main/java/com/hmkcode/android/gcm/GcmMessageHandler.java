@@ -86,9 +86,9 @@ public class GcmMessageHandler extends IntentService {
             public void run() {
                 //-----------------------------------------
                 //Toast.makeText(getApplicationContext(),mes , Toast.LENGTH_LONG).show();
+                MainActivity.response.setVisibility(View.VISIBLE);
                         MainActivity.response.setOnClickListener(new View.OnClickListener() {
                             public void onClick(View v) {
-                                MainActivity.response.setVisibility(View.VISIBLE);
                                 if (MainActivity.response.getText().equals("Accept"))
                                     MainActivity.response.setText("Click to complete");
                                 else
@@ -115,6 +115,23 @@ public class GcmMessageHandler extends IntentService {
                     Marker TP = MainActivity.googleMap.addMarker(new MarkerOptions().position(TutorialsPoint).title("TutorialsPoint"));
                     MainActivity.markers.add(TP);
 
+
+                    LatLngBounds.Builder builder = new LatLngBounds.Builder();
+                  if(MainActivity.markers.size() > 2)
+                  {
+                      MainActivity.markers.clear();
+                      MainActivity.googleMap.clear();
+                      // current location
+                      Marker marker = MainActivity.googleMap.addMarker(new MarkerOptions().position(MainActivity.current_location).title("It's Me!"));
+                      // crime location
+                      TP = MainActivity.googleMap.addMarker(new MarkerOptions().position(TutorialsPoint).title("TutorialsPoint"));
+
+                      MainActivity.markers.add(marker);
+                      MainActivity.markers.add(TP);
+
+                      MainActivity.response.setText("Accept");
+                  }
+
                     JSONParser jParser = new JSONParser();
 
                     // take the current and crime coordinates
@@ -129,15 +146,6 @@ public class GcmMessageHandler extends IntentService {
 
                     Log.i("test", json);
                     drawPath(json);
-
-
-                    LatLngBounds.Builder builder = new LatLngBounds.Builder();
-//                    if(MainActivity.markers.size() > 1)
-//                    {
-//                        MainActivity.markers.remove(1);
-//                        MainActivity.googleMap.clear();
-//                        Marker marker = MainActivity.googleMap.addMarker(new MarkerOptions().position(MainActivity.current_location).title("It's Me!"));
-//                    }
 
                     for (Marker marker : MainActivity.markers) {
                         builder.include(marker.getPosition());
